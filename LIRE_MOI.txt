@@ -1,0 +1,25 @@
+NEON BREAKER - Jeu Java Swing / Java2D
+
+DEMARRER : extraire le ZIP puis double-cliquer sur Lancer.bat.
+Java 8 ou plus recent est necessaire.
+Alternative : java -jar NeonBreaker.jar
+
+COMMANDES
+Souris ou fleches gauche/droite (A/D) : deplacer la raquette.
+Clic ou espace : lancer la balle.
+P : pause / reprendre.
+R : recommencer.
+Apres GAME OVER : espace ou clic pour recommencer.
+
+REGLES
+Detruire les petits carres en haut avec la balle.
+Chaque carre touche disparait dans une explosion de particules.
+La balle rebondit ; son angle depend du point de contact avec la raquette.
+Vous disposez de trois vies. Un tableau termine lance le suivant.
+Un carre vaut 100 points, plus un bonus de combo.
+
+SOURCE : src/NeonBreaker.java
+Recompiler avec un JDK : Compiler.bat.
+Sans bibliotheque externe. Fenetre de taille fixe 600 x 820.
+Tests automatiques : java -jar NeonBreaker.jar --test
+Collisions, explosions, vies et pause verifies.
